@@ -1,0 +1,32 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  display: flex;
+  justify-content:first baseline;
+  border: 0px white;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 5px solid #fff5f7;
+  border-radius: 10px;
+}
+.languages {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
